@@ -1,1 +1,2 @@
-# rolling-scopes-school
+# denisselet-JSFEPRESCHOOL
+Private repository for @denisselet

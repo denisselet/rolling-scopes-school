@@ -1,0 +1,161 @@
+#img_logo {
+    /* background-image: url('../assets/svg/logo.svg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline;
+}
+
+#img_logo.select {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+#img_logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+
+.img_logo path, .img_logo svg, .img_logo {
+    /* fill:aqua;
+    color: aqua;
+    background-color: blue; */
+
+}
+
+.logo_container button {
+    border: none;
+    background-color: transparent;
+}
+
+header {
+    background-color: black;
+}
+.header_container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.selectSound li{
+    display: inline;
+}
+
+.sol.select {
+    color: #bdae82;
+}
+.dr.select {
+    color: #bdae82;
+}
+.mal.select {
+    color: #bdae82;
+}
+.zav.select {
+    color: #bdae82;
+}
+.sla.select {
+    color: #bdae82;
+}
+.selectSound button:hover {
+    color: #bdae82;
+}
+
+.selectSound button {
+    line-height: 60px;
+    margin-right: 20px;
+
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main_container {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#image {
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 120px);
+}
+
+.play {
+    position: absolute;
+    background-image: url('../assets/svg/play.svg');
+    height: 170px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+
+.play:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+
+.play.pause {
+    background-image: url('../assets/svg/pause.svg');
+}
+
+
+.footer_container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+}
+
+.yearAndGithub {
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    color: white;
+}
+
+.yearAndGithub a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.yearAndGithub a:hover {
+    color: #bdae82;
+}
+
+.linkRsschool {
+    background-image: url('../assets/svg/rss.svg');
+    height: 55px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.linkRsschool:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+

@@ -1,0 +1,239 @@
+body {
+
+}
+
+button {
+    cursor: pointer;
+ }
+  .sheet {
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+    width: 480px;
+    background-color: #776e65;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 480px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divUp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.divUp button{
+    height: 45px;
+    width: 240px;
+    /* border-radius: 5px; */
+    background-color: rgba(232, 228, 318, 1);
+
+    
+}
+.sheet .dd {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(238, 228, 218, 0.35);
+    border-radius: 5px;
+    color: #5C544F;
+    font-size: 42px;
+    font-family: 'Heebo', sans-serif;
+    /* align-items: center; */
+    
+}
+.dd p {
+    line-height: 100px;
+    text-align: center;
+}
+  
+.div_score {
+    background-color: rgba(232, 228, 318, 1);
+    height: 45px; 
+    width: 240px;
+    border-radius: 5px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.score {
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    color:black;
+    font-size: 30px;
+}
+
+.menu {
+    display: none;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #1C5faF;
+    border-radius: 5px;
+}
+
+.menu.on {
+    display: block;
+}
+.menu_item button {
+    height: 50px;
+    width: 200px;
+    margin: 30px auto;
+    background-color: #76d14F;
+    border: none;
+    border-radius: 15px;
+}
+.menu_item_all {
+    height: 400px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+
+
+
+.gameOver {
+    display: none;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 5px;
+}
+.gameOver.on{
+    display: block;
+}
+.gameOver-item {
+    height: 400px;
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid green;
+}
+.gameOver_score {
+    background-color: rgba(232, 228, 318, 1);
+    height: 50px; 
+    width: 200px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gameOver_but button {
+    height: 50px;
+    width: 200px;
+    margin: 30px auto;
+    background-color: #14514F;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+
+.footer_container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+    background-color: #5C544F;
+}
+
+.yearAndGithub {
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    color: white;
+}
+
+.yearAndGithub a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.yearAndGithub a:hover {
+    color: black;
+}
+
+.linkRsschool {
+    background-image: url('../assets/svg/rss.svg');
+    height: 55px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.linkRsschool:hover {
+    filter: invert(100%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+
+
+
+.recordsList {
+    display: none;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #1C5faF;
+    border-radius: 5px;
+}
+.recordsList table {
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    font-size: 24px;
+    align-items: center;
+}
+table th {
+    font-weight: 800;
+}
+table td {
+    text-align: center 
+
+}
+.recordsList.on {
+    display: block;
+}
+
+
+
+.settingList {
+    display: none;
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #1C5faF;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.area {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.settingList.on {
+    display: block;
+}
+
